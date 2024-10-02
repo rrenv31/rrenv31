@@ -1,0 +1,171 @@
+/* CSS Reset */
+* {
+    margin: 0%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Fuentes Web */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #ff72a8;
+    color: rgb(255, 194, 239);
+    padding: 20px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff9e2;
+}
+h2, h3 {
+    color: #94025a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Sobre mí */
+/* Sobre mí */
+.section-about {
+    background-color: #FFCDE8; /* Color de fondo rosado claro */
+    padding: 80px;
+    display: flex;
+    justify-content: center; /* Centra todo el contenido horizontalmente */
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* La columna de la imagen es más pequeña que la del texto */
+    align-items: center; /* Alinea el contenido verticalmente */
+    gap: 40px; /* Espacio entre la imagen y el texto */
+    max-width: 1440px; /* Ancho máximo de la sección */
+}
+
+.about-image img {
+    width: 100%; /* La imagen ocupa el 100% del espacio de su columna */
+    height: auto; /* Mantiene la proporción de la imagen */
+    background-color: #D3D3D3; /* Color de fondo gris para la imagen en lugar de tener una real */
+}
+.about-text h2 {
+    color: #E6007E; /* Color magenta oscuro para el encabezado */
+    font-size: 32px; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 16px;
+    text-align: center;
+}
+.about-text {
+    text-align: left;
+}
+.about-text p {
+    color: #4A4A4A; /* Color del texto */
+    font-size: 18px; /* Ajusta el tamaño de la fuente del párrafo */
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr; /* En pantallas pequeñas, apila el contenido */
+        text-align: center; /* Centra el texto */
+    }
+
+    .about-image img {
+        width: 60%; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+        margin: 0 auto; /* Centra la imagen */
+    }
+
+    .about-text h2 {
+        font-size: 28px; /* Ajusta el tamaño de la fuente en pantallas pequeñas */
+    }
+
+    .about-text p {
+        font-size: 16px; /* Ajusta el tamaño del párrafo en pantallas pequeñas */
+    }
+}
+
+/* Proyectos recientes */
+.section-projects {
+    background-color: #ffbfe5;
+    padding: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    text-align: center;
+}
+
+.project p {
+    text-align: left;
+}
+
+/* Galería */
+.section-gallery {
+    background-color: #ffacd3;
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #E6007E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-content, .about-image {
+        max-width: 100%;
+        text-align: center;
+    }
+}
