@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Renata Ramírez, diseñadora de comunicación gráfica.">
+    <title>Renata Ramírez - Portafolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Renata Ramírez</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="Contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Sobre mí -->
+    <main>
+<!-- Sección Sobre mí -->
+<section id="about-me" class="section-about">
+    <h2>Sobre mí</h2>
+    <div class="about-grid">
+        <div class="about-text">
+            <p>Soy Renata Ramírez, tengo 21 años y actualmente estudio la Licenciatura en Diseño de la Comunicación Gráfica en la UAM Azcapotzalco. En esta página podrás encontrar un poco del trabajo que he realizado a lo largo de la carrera, además de diferentes prácticas fotográficas.</p>
+        </div>
+        <div class="about-image">
+            <img src="FOTORENPORT.jpg" alt="Renata Ramírez">
+        </div>
+    </div>
+</section>
+        <!-- Sección Proyectos Recientes -->
+        <section id="recent-projects" class="section-projects">
+            <h2>Proyectos recientes</h2>
+            <div class="grid-container">
+                <div class="project">
+                    <img src="Cartel_Transito-exp_Renata.jpg" alt="Proyecto 1">
+                    <h3>Cartel: Transito Expresivo</h3>
+                    <p>Este proyecto es un cartel que aborda la temática de la diversidad sexual y expresión de género.</p>
+                </div>
+                <div class="project">
+                    <img src="Bienal-final-2.jpg" alt="Proyecto 2">
+                    <h3>Cartel: BICM18</h3>
+                    <p>Este es un proyecto realizado para el concursp de la Bienal Internacional del Cartel, la temática es el cuidado de medio ambiente, específicamente la conservación de las especies polinizadoras.</p>
+                </div>
+                <div class="project">
+                    <img src="DSC03926.jpg" alt="Proyecto 3">
+                    <img src="DSC01575.jpg" alt="Proyeto 3">
+                    <h3>Serie fotográfica</h3>
+                    <p>Estas fotografías capturan diferentes momentos de socialización entre las
+                        personas, resaltando la importancia de las relaciones interpersonales para el desarrollo emocional y cognitivo.
+                        Ante los efectos negativos del aislamiento durante la pandemia, como el envejecimiento prematuro del cerebro en
+                        jóvenes, esta serie busca retratar el valor de la interacción humana. Al documentar estos encuentros, se resalta la
+                        necesidad de reconstruir comunidades y destacar que las conexiones son esenciales para el bienestar y la salud
+                        mental.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Galería -->
+        <section id="gallery" class="section-gallery">
+            <h2>Galería</h2>
+            <p>Explora algunos de mis trabajos de fotografía</p>
+            <div class="gallery-grid">
+                <img src="DSC01432.jpg" alt="Foto 1">
+                <img src="DSC01565.jpg" alt="Foto 2">
+                <img src="DSC01773.jpg" alt="Foto 3">
+                <img src="Cong 1.jpg" alt="Foto 4">
+                <img src="DSC01435.jpg" alt="Foto 5">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portafolio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Renata Ramírez. Todos los derechos reservados | <a href="#">Política de privacidad</a></p>
+    </footer>
+</body>
+</html>
